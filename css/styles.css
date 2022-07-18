@@ -14,7 +14,7 @@ img {
 .container {
     padding-left: 15px;
     padding-right: 15px;
-    width: 1170px;
+    width: 1200px;
     margin: auto;
 }
 .footer{
@@ -293,6 +293,11 @@ background-color: var(--logo-color-blue-blue);
     line-height: 1.16;
 }
 
+.our-teamo {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .technicalim:not(:last-child){
     margin-right: 30px;
 }
@@ -349,7 +354,7 @@ background-color: var(--logo-color-blue-blue);
 }
 .our-teamo:not(:last-child){
     margin-right: 30px; 
-
+    width: 1170;
 }
 
 .team {
