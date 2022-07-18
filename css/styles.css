@@ -249,6 +249,10 @@ background-color: var(--logo-color-blue-blue);
 .sidebars:not(:last-child){
     margin-right: 30px;
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .sidebar {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -325,7 +329,6 @@ background-color: var(--logo-color-blue-blue);
     padding-bottom: 94px;
 }
 .team-name {
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 
