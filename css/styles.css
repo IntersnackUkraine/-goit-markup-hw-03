@@ -12,14 +12,14 @@ img {
 }
 
 .container {
+    padding-left: 15px;
+    padding-right: 15px;
     width: 1170px;
     margin: auto;
-    padding-top: 89px;
-    padding-bottom: 94px;
-
 }
 .footer{
-    border: 5px solid #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 a {
     text-decoration: none;
@@ -85,10 +85,16 @@ body {
 }
 
 /* заголовок */
+.div-header {
+    /* width: 1600px; */
+}
+
 .page-header {
     background-color: var(--main-header-background-size);
     padding: 0 0;
     display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /* навигация */
 .page-nav {
@@ -165,8 +171,10 @@ body {
     padding-bottom: 285px;
 }
 .business {
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
 }
 /* заголовок */
 .business-solution {
@@ -234,12 +242,16 @@ background-color: var(--logo-color-blue-blue);
 /* Эффективные решения для вашего бизнеса div*/
 
 /* Эффективные решения для вашего бизнеса */
-.sidebars {
+.sidebars: {
     justify-content: center;
     width: 270px;
+}
+.sidebars:not(:last-child){
     margin-right: 30px;
 }
 .sidebar {
+    padding-top: 94px;
+    padding-bottom: 94px;
     display: flex;
     margin: auto;
     align-items: center;
@@ -266,7 +278,7 @@ background-color: var(--logo-color-blue-blue);
 
 .doing {
     margin:0;
-
+    padding-bottom: 50px;
     padding-left: 397px;
     padding-right: 397px;
     color: var(--main-header-color);
@@ -276,37 +288,70 @@ background-color: var(--logo-color-blue-blue);
     font-size: var(--font-size36);
     line-height: 1.16;
 }
-.technical-image {
+
+.technicalim:not(:last-child){
     margin-right: 30px;
 }
 .work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-bottom: 94px;
     display: flex;
     padding: 0;
 }
 .workhome {
-
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
 }
 .technicalim {
     display: flex;
 }
 /* Наша команда */
 .team-name {
-font-family: var(--font-roboto);
-font-style: var(--font-style);
-font-weight: var(--font-weight700);
-font-size: var(--font-size36);
-line-height: 1.16;
-text-align: center;
-color: var(--main-header-color);
-/* letter-spacing: 0.03em; */
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: var(--font-roboto);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight700);
+    font-size: var(--font-size36);
+    line-height: 1.16;
+    text-align: center;
+    color: var(--main-header-color);
+    letter-spacing: 0.03em;
+}
+.team{
+    padding-bottom: 94px;
+}
+.team-name {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.our-team {
+    display: flex;
+    align-items: center;
+}
+.namejobtitle {
+    background-color: var(--main-header-background-size);
+}
+.name{
+    padding-top: 30px;
+}
+.jobtitle {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.our-teamo:not(:last-child){
+    margin-right: 30px; 
+
 }
 
 .team {
-    align-items: center;
     background-color: #F5F4FA;
-    padding-top: 89px;
-    padding-bottom: 94px;
 }
+
 /* подпись карточки */
 .name {
     font-family: var(--font-roboto);
@@ -337,13 +382,10 @@ color: var(--main-header-color);
 }
 .footer {
     background-color: var(--main-background-hooter-color);
-
 }
 /* логотип */
 .logofooter {
     text-decoration: none;
-    
-
 }
 
 .logo-Wedfooter {
@@ -410,6 +452,45 @@ color: var(--main-header-color);
     color: var(--primary-text-color);
     line-height: 30px;
 }
+/* ПОРТФОЛИО */
+/* h1 */
+.none {
+display: none;
+}
+/* КНОПКИ-ПОРТФОЛИО */
+.button-port {
+    display: flex;
+}
+.button-portolio {
+    margin-left: 8px;
+}
+
+.one {
+    margin-left: 280px;
+}
+.button-port{
+    padding-bottom: 50px;
+    padding-top: 94px;
+}
+
+/* БОРДЫ */
+.product-web{
+    background-color: var(--main-header-background-size);
+    border: solid 1px #EEEEEE;
+}
+.product {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+}
+.web {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+}
+
+
+
 
 
 
