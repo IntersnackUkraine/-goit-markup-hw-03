@@ -37,7 +37,7 @@ a:hover {
     text-decoration: none;
 }
 body { 
-    width: 1600px;
+    /* width: 1600px; */
     font-family:(--font-family); 
     color:var(--primary-text-color);
     font-size:   14px;
@@ -167,8 +167,8 @@ body {
 .divbusiness {
     background-color: var(--main-background-hooter-color);
     margin-right: auto;
-    padding-top: 195px;
-    padding-bottom: 285px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .business {
         display: flex;
@@ -243,21 +243,23 @@ background-color: var(--logo-color-blue-blue);
 
 /* Эффективные решения для вашего бизнеса */
 .sidebars: {
-    justify-content: center;
     width: 270px;
+    justify-content: center;
 }
 .sidebars:not(:last-child){
     margin-right: 30px;
 }
+.sidebars{
+    width: 270px;
+}
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 .sidebar {
-    padding-top: 94px;
-    padding-bottom: 94px;
     display: flex;
-    margin: auto;
+    /* width: 1170px; */
     align-items: center;
 }
 /* < !--arranged in the form of a list--> */
@@ -272,7 +274,8 @@ background-color: var(--logo-color-blue-blue);
 }
 
 .sidebarp {
-    padding-top: 10px;
+    display: flex;
+    margin-top: 10px;
     font-family: var(--font-roboto);
     font-style: var(--font-style);
     font-weight: var(--font-weight400);
@@ -281,10 +284,9 @@ background-color: var(--logo-color-blue-blue);
 }
 
 .doing {
-    margin:0;
-    padding-bottom: 50px;
-    padding-left: 397px;
-    padding-right: 397px;
+    margin-bottom: 50px;
+    margin-left: 397px;
+    margin-right: 397px;
     color: var(--main-header-color);
     font-family: var(--font-roboto);
     font-style: var(--font-style);
@@ -302,11 +304,11 @@ background-color: var(--logo-color-blue-blue);
     margin-right: 30px;
 }
 .work {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    /* padding-top: 94px;
+    padding-bottom: 94px; */
     margin-bottom: 94px;
     display: flex;
-    padding: 0;
+    /* padding: 0; */
 }
 .workhome {
     padding-left: 15px;
@@ -319,8 +321,8 @@ background-color: var(--logo-color-blue-blue);
 /* Наша команда */
 .team-name {
     display: block;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
     font-family: var(--font-roboto);
     font-style: var(--font-style);
     font-weight: var(--font-weight700);
@@ -331,10 +333,10 @@ background-color: var(--logo-color-blue-blue);
     letter-spacing: 0.03em;
 }
 .team{
-    padding-bottom: 94px;
+    margin-bottom: 94px;
 }
 .team-name {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .our-team {
@@ -344,13 +346,13 @@ background-color: var(--logo-color-blue-blue);
 }
 .namejobtitle {
     background-color: var(--main-header-background-size);
+    padding: 30px;
 }
 .name{
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 .jobtitle {
-    padding-top: 10px;
-    padding-bottom: 30px;
+    margin-top: 10px;
 }
 .our-teamo:not(:last-child){
     margin-right: 30px; 
@@ -418,6 +420,7 @@ background-color: var(--logo-color-blue-blue);
     letter-spacing: 0.03em;
 }
 .address {
+    margin-top: 20px;
     color: var(--main-header-background-size);
     font-family: var(--font-roboto);
     font-style: var(--font-style);
@@ -427,6 +430,7 @@ background-color: var(--logo-color-blue-blue);
     
 }
 .mail {
+    margin-top: 9px;
     font-family: var(--font-roboto);
     font-style: var(--font-style);
     font-weight: var(--font-weight400);
@@ -435,6 +439,7 @@ background-color: var(--logo-color-blue-blue);
     color: rgba(255, 255, 255, 0.6);
 }
 .tel {
+    margin-top: 9px;
     font-family: var(--font-roboto);
     font-style: var(--font-style);
     font-weight: var(--font-weight400);
@@ -473,7 +478,7 @@ display: none;
 .button-port {
     display: flex;
 }
-.button-portolio {
+.button-portoliopx {
     margin-left: 8px;
 }
 
@@ -481,14 +486,12 @@ display: none;
     margin-left: 280px;
 }
 .button-port{
-    padding-bottom: 50px;
-    /* padding-top: 94px; */
 }
 
 /* БОРДЫ */
 .product-web{
-    background-color: var(--main-header-background-size);
-    border: solid 1px #EEEEEE;
+    /* background-color: var(--main-header-background-size);
+    border: solid 1px #EEEEEE; */
 }
 .product {
     padding-left: 24px;
@@ -505,12 +508,18 @@ display: none;
     justify-content: space-between;
 }
 .our-t {
+    display:column:flex;
     margin-bottom: 30px;
+    background-color: var(--main-header-background-size);
+    border: solid 1px #EEEEEE;
 }
 .our-t:nth-last-child(-n+3){
     margin-bottom: 160px;
 }
-
+.button-port {
+    padding-bottom: 50px;
+    padding-top: 94px;
+}
 
 
 
