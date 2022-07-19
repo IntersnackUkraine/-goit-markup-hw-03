@@ -490,19 +490,23 @@ display: none;
 
 /* БОРДЫ */
 .product-web{
+    padding-left: 24px;
+    padding-right: 24px;
     /* background-color: var(--main-header-background-size);
     border: solid 1px #EEEEEE; */
 }
-.product {
+.productweb{
+    padding: 0 0;
+    margin: 20px 24px 20px 24px;
+}
+/* .product {
     padding-left: 24px;
     padding-right: 24px;
-    padding-top: 20px;
 }
 .web {
     padding-left: 24px;
     padding-right: 24px;
-    padding-bottom: 20px;
-}
+} */
 .our-tea {
     flex-wrap: wrap;
     justify-content: space-between;
