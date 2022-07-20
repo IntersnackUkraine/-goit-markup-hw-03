@@ -135,10 +135,10 @@ body {
 .menu-item:not(:last-child) {
     margin-right: 40px;
 }
-.menu-item:{
+/* .menu-item:{
     padding-bottom: 32px;
     padding-top: 32px;
-}
+} */
 
 .menu-link {
     flex: content;
@@ -153,6 +153,10 @@ body {
     color: var(--main-header-color);
 }
 /* почта телефон */
+.listmp {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .list {
     text-decoration: none;
     display: flex;
@@ -165,13 +169,9 @@ body {
 }
 .phone-number {
     margin-left: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .phone-number {
     color: var(--primary-text-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .mailto {
     margin-left: 331px;
